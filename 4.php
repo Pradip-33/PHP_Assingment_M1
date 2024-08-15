@@ -7,7 +7,7 @@
 </head>
 <body>
     <form action="#" method="post">
-    <h3>largest of three numbers using ternary Operator</h3>
+    <h2 align="Center">largest of three numbers using ternary Operator</h2>
     <label>A :</label>
     <input type="text" name="max1" id="max1"><br><br><br>
     <label>B :</label>

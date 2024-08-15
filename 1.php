@@ -7,7 +7,7 @@
 </head>
 <body>
     <form action="#" method="post">
-    <h2><u>Enter Student Marks</u></h2>
+    <h2 align="Center"><u>Enter Student Marks</u></h2>
     <label>Physics :</label>
     <input type="text" name="Sub1" id="Sub1"><br>
     <label>Chemistry :</label>
