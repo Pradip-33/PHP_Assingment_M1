@@ -6,9 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-   
-    
-    <h1 align="Center" ><b><u>Fibonacci Serices</u></b></h1>
+   <h1 align="Center"><b><u>Fibonacci Serices</u></b></h1>
 <?php
 $n = 8;
 $a = 0;
