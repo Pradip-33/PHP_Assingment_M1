@@ -8,15 +8,15 @@
 <body>
     <form action="#" method="post">
     <h2><u>Enter Student Marks</u></h2>
-    <label>Physics</label>
+    <label>Physics :</label>
     <input type="text" name="Sub1" id="Sub1"><br>
-    <label>Chemistry</label>
+    <label>Chemistry :</label>
     <input type="text" name="Sub2" id="Sub2"><br>
-    <label>Biology</label>
+    <label>Biology :</label>
     <input type="text" name="Sub3" id="Sub3"><br>
-    <label>Mathematics</label>
+    <label>Mathematics :</label>
     <input type="text" name="Sub4" id="Sub4"><br>
-    <label>Computer</label>
+    <label>Computer :</label>
     <input type="text" name="Sub5" id="Sub5"><br>
     <input type="Submit" value="Submit" name="submit" >
     </form>
