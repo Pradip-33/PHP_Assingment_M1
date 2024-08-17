@@ -12,7 +12,8 @@ $car = [
     "model" => "Corolla",
     "year" => 2020
 ];
-$products = array(
+//Multidimensional Array
+$products = array(  
     array(
         "name" => "Laptop",
         "price" => 800,
