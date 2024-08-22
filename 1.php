@@ -1,3 +1,6 @@
+<!-- Write a PHP program to enter marks of five subjects Physics, Chemistry,
+Biology, Mathematics and Computer, calculate percentage and grade by if
+else -->
 <!DOCTYPE html>
 <html lang="en">
 <head>

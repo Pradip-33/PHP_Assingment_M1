@@ -1,42 +1,30 @@
-<?php
-$numbers = array(1, 2, 3, 4, 5); // Using array() function
-$fruits = ["Apple", "Banana", "Mango"]; // Using short array syntax
-$person = array(
-    "name" => "Pradip",
-    "age" => 25,
-    "city" => "Ahmedabad"
-);
+<!-- How can you tell if a number is even or odd without using any Condition or
+loop? -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd Even</title>
+</head>
+<body>
+    <h2>How can you tell if a number is even or odd without using any Condition orloop?</h2>
+    <h3>:- I use Ternary Operator to Find odd even </h3>
+    
+    <h1 align="Center" >
+        <form action="#" method="post">
+            <label for="Odd Even">Enter Number</label><br>
+            <input type="text" name="oddeven" id="oddeven"><br>
+            <input type="Submit" name="Submit" id="Submit">
 
-$car = [
-    "brand" => "Toyota",
-    "model" => "Corolla",
-    "year" => 2020
-];
-//Multidimensional Array
-$products = array(  
-    array(
-        "name" => "Laptop",
-        "price" => 800,
-        "quantity" => 10
-    ),
-    array(
-        "name" => "Phone",
-        "price" => 500,
-        "quantity" => 20
-    )
-);
+        </form>
+        <?php
+        $a = $_POST['oddeven'];
 
-$matrix = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-];
-$jsonString = '{"name": "Pradip", "age": 25, "city": "Ahmedabad"}';
+        $result = $a % 2 ? "Odd" : "Even" ;
 
-// Convert JSON string to PHP array
-$array = json_decode($jsonString, true);
-
-// Output the array
-print_r($array);
-
-?>
+        echo "<br>".$a." is ".$result;
+        ?>
+    </h1>
+</body>
+</html>

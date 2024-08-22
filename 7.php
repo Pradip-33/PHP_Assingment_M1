@@ -1,3 +1,10 @@
+<!--Write a
+program to print the below format :
+                                    5 9
+                                    2610
+                                    3711
+                                    4812 
+-->
 <?php
 $a = 5;
 $b = 9;

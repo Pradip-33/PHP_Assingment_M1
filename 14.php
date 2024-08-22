@@ -1,31 +1,17 @@
-<!--Use a for loop to total the contents of an integer array called numbers which
-has five elements. Store the result in an integer called total. -->
+<!--Write a PHP script which decodes the following JSON string-->
+<?php
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h3 align="center">
-        <?php
-
-            $numbers = array(10, 20, 30, 40, 50);
+$jsonString = '{
+    "name": "Pradip Suthar",
+    "age": 21,
+    "email": "Pfsuthar33@gmail.com",
+    "hobbies": ["reading", "travelling", "running"]
+}';
 
 
-            $total = 0;
+$decodedArray = json_decode($jsonString, true);
 
+echo "Decoded Array: <br><pre>";
+print_r($decodedArray);
 
-            for ($i = 0; $i < count($numbers); $i++) {
-                $total += $numbers[$i];
-            }
-
-
-            echo "The total of the array elements is: " . $total;
-        ?>
-    </h3>
-    
-</body>
-</html>
+?>

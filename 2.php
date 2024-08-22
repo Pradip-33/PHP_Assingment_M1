@@ -1,3 +1,5 @@
+<!-- write a PHP program for find „Thursday‟ in week using switch
+Function. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -1,3 +1,5 @@
+<!-- Write a PHP program to find the largest of three numbers using ternary
+Operator. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>

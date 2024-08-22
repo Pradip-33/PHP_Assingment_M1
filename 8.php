@@ -1,3 +1,10 @@
+<!-- Write a program for this Pattern:
+*****
+*
+*
+*
+***** 
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>

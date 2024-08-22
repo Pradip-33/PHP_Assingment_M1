@@ -1,32 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h3 align="Center">
-   <?php
-    $array = array("Apple", "Banana", "Cherry", "Date", "Elderberry");
+<!--Write program to remove duplicate values from array -->
+<?php
+$array = array(1,2,3,4,5,6,7,8,6,2,3,4,3,2,1,2,3,5,6,7,8,9);
 
-
-$numOfValues = 3;
-
-
-$randomKeys = array_rand($array, $numOfValues);
-
-
-$randomValues = array_map(function($key) use ($array) {
-    return $array[$key];
-}, $randomKeys);
-
-echo "<u>Random Values</u> <br>|<br>|<br>\/<br>" . implode(", ", $randomValues);
+$uarray = array_unique($array);
+echo"<pre>";
+print_r($uarray);
 ?>
-
-    </h3>
-    
-</body>
-</html>
-
-

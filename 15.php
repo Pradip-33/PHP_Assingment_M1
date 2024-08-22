@@ -1,13 +1,31 @@
-<!--Declare a Multi Dimensioned array of floats called balances having Three
-rows and five columns.-->
-<?php
+<!--Use a for loop to total the contents of an integer array called numbers which
+has five elements. Store the result in an integer called total. -->
 
-$a = array(
-    array(1000.50, 2000.75, 1500.25, 1750.60, 2200.80),  
-    array(1100.55, 2100.65, 1600.35, 1850.45, 2300.90),  
-    array(1200.60, 2200.70, 1700.45, 1950.50, 2400.95)   
-);
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3 align="center">
+        <?php
 
-echo " <pre>";
-print_r($a);
-?>
+            $numbers = array(10, 20, 30, 40, 50);
+
+
+            $total = 0;
+
+
+            for ($i = 0; $i < count($numbers); $i++) {
+                $total += $numbers[$i];
+            }
+
+
+            echo "The total of the array elements is: " . $total;
+        ?>
+    </h3>
+    
+</body>
+</html>
